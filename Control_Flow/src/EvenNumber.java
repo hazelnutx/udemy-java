@@ -21,6 +21,7 @@ public class EvenNumber {
 		while((num % 2) == 0) {
 			return true;
 		}
+		
 		return false;
 	}
 }

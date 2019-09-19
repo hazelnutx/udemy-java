@@ -12,7 +12,7 @@ public class DigitSum {
 		}
 		
 		int sum = 0;
-		while (number >  10) {
+		while (number > 0) {
 			//extract the least significant digit
 			int digit = number % 10;
 			sum += digit;

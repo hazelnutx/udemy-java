@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DayOfTheWeek<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "DayOfTheWeek",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DigitSum<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "DigitSum",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EvenNumber<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "EvenNumber",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InterestRateChallenge<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "InterestRateChallenge",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sum3and5Challenge<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "Sum3and5Challenge",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchChallenge<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "SwitchChallenge",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UserInputChallenge<UdemyCourse>",
+            "request": "launch",
+            "mainClass": "UserInputChallenge",
+            "projectName": "UdemyCourse"
+        }
+    ]
+}

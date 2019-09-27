@@ -6,23 +6,29 @@ public class UserInputChallenge {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Enter number #x: ");
+		int counter = 0;
+		int sum = 0;
 
-		boolean hasInt = scanner.hasNextInt();
-		int count = 0;
+		while(true){
+			int order = counter + 1;
+			System.out.println("Enter number # " + order + " : ");
 
-		if (hasInt) {
-			int numbers = scanner.nextInt();
-			scanner.nextLine();
+			boolean isAnInt = scanner.hasNextInt();
 
-			System.out.println("Sum of the numbers are: " + count);
-
-		} else {
-			System.out.println("Invalid number");
+			if(isAnInt){
+				int number = scanner.nextInt();
+				counter++;
+				sum += number;
+				if(counter == 10){
+					break; // stopped the endless loop
+				}
+			} else {
+				System.out.println("INVALID NUMBER");
+			}
+			scanner.nextLine(); // handle end of line (enter key)
 		}
-
+		System.out.println("sum = " + sum);
 		scanner.close();
-
 	}
 
 }

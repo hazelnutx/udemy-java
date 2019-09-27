@@ -9,19 +9,20 @@ public class UserInputChallenge {
 		int counter = 0;
 		int sum = 0;
 
-		while(true){
-			int order = counter + 1;
+		while (counter < 10) { // 0, 1, ,2, ... 9 == 10 // to use the break if statement while(true) is the
+								// only way to get out of the infinite loop.
+			int order = counter + 1; // 1... 10
 			System.out.println("Enter number # " + order + " : ");
 
 			boolean isAnInt = scanner.hasNextInt();
 
-			if(isAnInt){
+			if (isAnInt) {
 				int number = scanner.nextInt();
 				counter++;
 				sum += number;
-				if(counter == 10){
-					break; // stopped the endless loop
-				}
+				// if(counter == 10){
+				// break; // stopped the endless loop
+				// }
 			} else {
 				System.out.println("INVALID NUMBER");
 			}

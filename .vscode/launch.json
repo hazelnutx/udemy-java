@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimAndMaximumChallenge",
+            "request": "launch",
+            "mainClass": "MinimAndMaximumChallenge",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BankAccount",
+            "request": "launch",
+            "mainClass": "Classes.src.BankAccount",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

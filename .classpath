@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Control_Flow/src"/>
+	<classpathentry excluding="Control_Flow/src/" kind="src" path=""/>
 	<classpathentry kind="output" path="out/production/Switch"/>
 </classpath>

@@ -10,6 +10,8 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 out/
+.classpath
+.vscode/launch.json
 
 ### Eclipse ###
 .metadata

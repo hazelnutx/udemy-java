@@ -3,11 +3,9 @@ package Classes.src;
 public class Opel extends Car{
 	
 	private double weight;
-	
-	public Opel() {
-		this(0);
-	}
+
 	public Opel(double weight) {
+		super("Opel" ,0, 0, 1);
 		this.weight = weight;
 	}
 	

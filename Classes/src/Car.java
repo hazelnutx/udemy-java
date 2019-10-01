@@ -2,11 +2,9 @@ package Classes.src;
 
 public class Car extends Vehicle{
 	private int gears;
-	
-	public Car() {
-		this(1);
-	}
-	public Car(int gears) {
+
+	public Car(String name, int direction, int move, int gears) {
+		super(move, direction, name);
 		this.gears = gears;
 	}
 	

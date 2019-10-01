@@ -1,41 +1,45 @@
 package Classes.src;
 
-import java.util.Scanner;
 
 public class Vehicle {
-	private int steeringWheel;
+	private int direction;
 	private int move;
-
-	Scanner scanner = new Scanner(System.in);
+	private String name;
 
 	public Vehicle() {
-		this(1, 0);
+		this(0, 0, "Defualt");
 	}
-
-	public Vehicle(int steeringWheel, int move) {
-		this.steeringWheel = steeringWheel;
+	
+	public Vehicle(int direction, int move, String name) {
+		this.direction = direction;
 		this.move = move;
+		this.name = name;
 	}
 
 	int sum = 0;
 
-	public int plusSpeed(int speed) {
+	public void plusSpeed(int speed) {
 		this.move += speed;
 		System.out.println("Increase speed by: " + getMove());
-		return move;
-		
 	}
-	public int minusSpeed(int speed) {
+	public void minusSpeed(int speed) {
 		this.move -= speed;
-		System.out.println("Decrease speed by: " + getMove());
-		return move;
+		System.out.println("Decrease speed by: " + speed);
+	}
+	
+	public void direction(int direction) {
+		this.direction = direction;
+		System.out.println("Direction is: " + direction + " degrees");
 	}
 
-	public int getSteeringWheel() {
-		return steeringWheel;
+	public int getDirection() {
+		return direction;
 	}
 
 	public int getMove() {
 		return move;
+	}
+	public String getName() {
+		return name;
 	}
 }

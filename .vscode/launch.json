@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Classes.src.Main",
+            "projectName": "UdemyCourse"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinimAndMaximumChallenge",
             "request": "launch",
             "mainClass": "MinimAndMaximumChallenge",

@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		for(int i = 1; i < 6; i++) {
 			Car car = randomCar();
-			System.out.println("Car # " + i + ":" + car.getName() + "\n" + "Engine: " + car.startEngine() + "\n");
+			System.out.println("Car #" + i + ":" + car.getName() + "\n" + "Engine: " + car.startEngine() + "\n");
 		}
 	}
 	

@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Control_Flow/src"/>
 	<classpathentry kind="src" path="Encapsulation"/>
+	<classpathentry kind="src" path="Polymorphism"/>
 	<classpathentry kind="output" path="out/production/Switch"/>
 </classpath>

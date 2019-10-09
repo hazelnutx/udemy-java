@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Control_Flow/src"/>
 	<classpathentry kind="src" path="Encapsulation"/>
 	<classpathentry kind="src" path="Polymorphism"/>
+	<classpathentry kind="src" path="Array"/>
 	<classpathentry kind="output" path="out/production/Switch"/>
 </classpath>

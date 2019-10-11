@@ -30,11 +30,13 @@ public class Main {
 	}
 	
 	public static int[] sortIntegers(int[] array) {
-		int[] sortedArray = new int[array.length];
+//		int[] sortedArray = new int[array.length];
+//		
+//		for(int i = 0; i < array.length; i++) {
+//			sortedArray[i] = array[i];
+//		}
 		
-		for(int i = 0; i < array.length; i++) {
-			sortedArray[i] = array[i];
-		}
+		int[] sortedArray = Arrays.copyOf(array, array.length); // this does the exact same as the code above.
 		
 		boolean flag = true; // put this when you want to check if something is true go on and if not, put it to false so it stops
 		int temp;

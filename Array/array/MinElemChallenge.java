@@ -18,17 +18,16 @@ public class MinElemChallenge {
 		return values;
 	}
 	
-	public static void findMin(int[] array) {
-		int minim = 0;
+	public static int findMin(int[] array) {
+		int min = Integer.MAX_VALUE;
 		for(int i = 0; i < array.length; i++) {
-			if(array[i] < array[i + 1]) {
-				minim = array[i];
-				if(array[i-1] > minim) {
-					System.out.println("Minimum array " + minim);
-				}
+			int value = array[i];
+			if(value < min) {
+				min = value;
 			}
 		}
-		scanner.close();
+		System.out.println("Minimum value " + min);
+		return min;
 	}
 
 }

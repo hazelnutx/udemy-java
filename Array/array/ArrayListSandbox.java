@@ -22,6 +22,8 @@ public class ArrayListSandbox {
 		addList("Peppermint"); // added later - now the size is 4 so when replacing pos. 2, it replaces the 3rd item.
 		replaceListWithPosition(2, "Wine"); // size of 3, but it starts from 0, so position 2 is actually the last item.
 		printList();
+		
+		findItem("Wine");
 	}
 	
 	public static void addList(String item) {
@@ -58,5 +60,16 @@ public class ArrayListSandbox {
 		 * id's, which makes your life easier.
 		 */
 		System.out.println("Replaced item at position " + (position+1) + " with " + replace);
+	}
+	
+	public static String findItem(String item) {
+		boolean exists = groceryList.contains(item);
+		int pos = groceryList.indexOf(item);
+		if(exists) {
+			if(pos >= 0) {
+				System.out.println(item + " in the position " + (pos+1));
+			}
+		}
+		return null;
 	}
 }

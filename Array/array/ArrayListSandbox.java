@@ -18,6 +18,10 @@ public class ArrayListSandbox {
 		addList("Milk");
 		replaceList("Bread", "Water");
 		printList();
+	
+		addList("Peppermint"); // added later - now the size is 4 so when replacing pos. 2, it replaces the 3rd item.
+		replaceListWithPosition(2, "Wine"); // size of 3, but it starts from 0, so position 2 is actually the last item.
+		printList();
 	}
 	
 	public static void addList(String item) {
@@ -42,5 +46,17 @@ public class ArrayListSandbox {
 				
 			}
 		}
+	}
+	
+	public static void replaceListWithPosition(int position, String replace) {
+		groceryList.set(position, replace); 
+		/*
+		 * Does the same thing as above, but instead of replacing the Word with the new one, it replaces
+		 * by position, not word (not like : Milk => Water) but 1. Milk => 1. Water
+		 * 
+		 * This is better used in a long array in which you don't have just one word, but instead you have
+		 * id's, which makes your life easier.
+		 */
+		System.out.println("Replaced item at position " + (position+1) + " with " + replace);
 	}
 }

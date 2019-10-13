@@ -16,7 +16,7 @@ public class ArrayListSandbox {
 		printList();
 		
 		addList("Milk");
-		replaceList("Bread", "Water");
+		replaceListByName("Bread", "Water");
 		printList();
 	
 		addList("Peppermint"); // added later - now the size is 4 so when replacing pos. 2, it replaces the 3rd item.
@@ -39,7 +39,7 @@ public class ArrayListSandbox {
 		groceryList.remove(item);
 	}
 	
-	public static void replaceList(String item, String replace) {
+	public static void replaceListByName(String item, String replace) {
 		for(int i = 0; i < groceryList.size(); i++) {			
 			if(groceryList.get(i).equals(item)) { // I iterate through the array and I search or get through each element until something equals to the item that I want to replace
 				groceryList.set(i, replace); // I replace that specific element in the array with the new word on the same position (i)

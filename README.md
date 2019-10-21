@@ -7,23 +7,23 @@
   * [x] Composition, Encapsulation, Polymorphism
 
 * [x] Arrays, LinkedList, Autoboxing, Unboxing
-* [] Inner, Abstract classes & Interfaces
-* [] Java Generics
-* [] Naming Convenstions
-* [] Scope
-* [] Access modifiers
+* [ ] Inner, Abstract classes & Interfaces
+* [ ] Java Generics
+* [ ] Naming Convenstions
+* [ ] Scope
+* [ ] Access modifiers
 
 * Java Collections:
-  * [] Binary search
-  * [] Collections List Methods
-  * [] Comparable and Comparator
-  * [] Maps
-  * [] Immutable Classes
-  * [] Sets & HashSets
-  * [] TreeMap & Unmodifiable Maps
+  * [ ] Binary search
+  * [ ] Collections List Methods
+  * [ ] Comparable and Comparator
+  * [ ] Maps
+  * [ ] Immutable Classes
+  * [ ] Sets & HashSets
+  * [ ] TreeMap & Unmodifiable Maps
   
-* [] Concurrency 
-* [] Lambda Expressions
-* [] Regular Expressions
-* [] Debugging and Unit Testing
-* [] Database
+* [ ] Concurrency 
+* [ ] Lambda Expressions
+* [ ] Regular Expressions
+* [ ] Debugging and Unit Testing
+* [ ] Database
